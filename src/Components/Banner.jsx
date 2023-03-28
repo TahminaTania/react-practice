@@ -5,7 +5,7 @@ import banner from '../Image/banner.jpg'
 export default function Banner() {
   return (
     <div className='text-white'>
-        <div className='max-w-[2000px] min-w-[400px] mt-0 w-full md:h-screen h-[600px] bg-no-repeat bg-cover mx-auto text-center flex flex-col justify-center '  style={{backgroundImage: `linear-gradient(to bottom, rgba(211,174,238,0.714), rgba(148,190,233,1)),url(${banner})`}}>
+        <div className='max-w-[2000px] min-w-[400px] mt-0 w-full md:h-screen h-[600px] bg-no-repeat bg-cover mx-auto text-center flex flex-col justify-center '  style={{backgroundImage: `linear-gradient(to bottom, rgba(23,63,73,1), rgba(12,74,121,0.1)),url(${banner})`}}>
             <div className='grid grid-cols-3'>
                 <div>
 
@@ -27,7 +27,7 @@ export default function Banner() {
                                 <input type="text"/>
                             </Typed> */}
                     </p>
-                    <h6 className='text-blue-900 font-bold '> To make the difference since 2018</h6>
+                    <h6 className='text-purple-500 font-bold '> To make the difference since 2018</h6>
                 </div>
             </div>
         </div>
