@@ -15,7 +15,7 @@ export default function Slick() {
     const slider = React.useRef(null);
 
   var settings = {
-    dots: true,
+    dots: true ,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -23,21 +23,21 @@ export default function Slick() {
     arrows: false,
   };
   return (
-   <div className=" w-full h-[500px] mt-5"> 
+   <div className=" w-full h-full   py-[10rem] "> 
     <div className="grid grid-cols-7 my-auto h-full">
 
         <div className="col-span-1  my-auto">
-             <button onClick={() => slider?.current?.slickPrev()} className="px-3"><BsChevronLeft size={50}/></button>
+             <button onClick={() => slider?.current?.slickPrev()} className="px-3 text-blue-700"><BsChevronLeft size={50}/></button>
         </div>
 
        
             <Slider  className="col-span-5 h-full " ref={slider} {...settings}>
-            <div className="flex align-middle justify-center h-[500px] bg-slate-300 ">
+            <div className="flex align-middle justify-center  bg-gradient-to-l from-cyan-100 to-white ">
                 <div className="grid grid-cols-2 mt-[12%] ">
                     <div className="p-2 items-center">
                         <h2 className="text-4xl bold md:text-5xl  py-5">Export & Import</h2>
                         <p className="py-3 text-gray-700 font-serif ... text-sm  md:text-[18px] sm:leading-6 lg:leading-8">After carefully analyzing the market and customer requirements Cloud production have launched a Business to Customer (B2C) market place to sell products directly from vendors to customers in Bangladesh.</p>
-                        <button className="uppercase bg-green-700 px:3 py-2 text-xs sm:px-5 sm:py-3 sm:text-sm md:px-4 md:py-2 text-white font-bold rounded ">We like to hear from you</button>
+                        <button className="bg-green-500 text-white rounded font-semibold  my-6 mx-auto px-6 py-3">We like to hear from you</button>
                     </div>
                     <div className="my-auto object-cover lg:h-48 lg:w-96 md:h-45 md:h-96 sm:h-55 sm:w-30..."><img src={ei}/></div>
 
@@ -61,7 +61,7 @@ export default function Slick() {
         
 
         <div className="col-span-1  my-auto ">
-            <button onClick={() => slider?.current?.slickNext()} className="float-right px-3"><BsChevronRight size={50}/></button>
+            <button onClick={() => slider?.current?.slickNext()} className="float-right px-3  text-blue-700"><BsChevronRight size={50}/></button>
         </div>
 
         </div>
