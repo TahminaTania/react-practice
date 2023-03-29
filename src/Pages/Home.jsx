@@ -6,9 +6,10 @@ import Sollutions from '../Components/Sollutions'
 export default function Home() {
   return (
     <div className=''>
-      <Banner/>
+      {/* <Banner/> */}
       <Slick/>
       <Sollutions/>
+
     </div>
   )
 }

@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 
+
+
 .slick-dots li button:before
 {
     font-family: 'slick';
     font-size: 15px;
     line-height: 10rem;   
 }
+
+

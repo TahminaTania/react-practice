@@ -31,8 +31,14 @@ function Navbar() {
                     </div>
                 </div>
 
-                <div className='my-auto sm:col-span-2 flex ml-[50%] pl-4 md:col-span-1'>
-                    <button className='flex whitespace-nowrap justify-center bg-purple-700 rounded-md px-4 py-2  font-bold md:float-right sm:float-left'><span><AiOutlineUser/></span> Sign In</button>
+                <div className='my-auto col-span-2  md:col-span-1 '>
+                  
+                        <a href="#_" className="relative md:float-right sm:float-left bg-green-500 text-white rounded-md font-medium  h-full px-6 py-3 inline-flex items-center justify-center hover:font-bold duration-[2s]  overflow-hidden text-medium group">
+                            <span className="absolute w-0  transition-all duration-700 ease-out bg-purple-500 rounded group-hover:w-full group-hover:h-full"></span>
+                            <span className="relative flex whitespace-nowrap"><span><AiOutlineUser/></span>Sign In</span>
+                        </a>
+                   
+                    {/* <button className='flex whitespace-nowrap justify-center bg-purple-700 rounded-md px-4 py-2  font-bold md:float-right sm:float-left'><span><AiOutlineUser/></span> Sign In</button> */}
                 </div>
             </div>
 
