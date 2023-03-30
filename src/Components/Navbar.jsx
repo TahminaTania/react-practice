@@ -14,7 +14,7 @@ function Navbar() {
 
 
     return (
-       <div className='bg-blue-900'>    
+       <div className='bg-blue-900 max-w-[1800] fixed w-full'>    
             <div className='grid grid-cols-4 gap-2 h-20 w-full mx-auto  px-4 text-white'>
                 <div className='flex my-auto'>
                     <img src={logo} className="h-15 w-20"/>
@@ -48,7 +48,7 @@ function Navbar() {
             </div>
             <div>
                 <div className=''>
-                    <div className={menu ? 'flex flex-col fixed text-white left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%] opacity-0'}>
+                    <div className={menu ? 'flex flex-col fixed text-white left-0 top-0 w-[60%] h-screen border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500 md:hidden' : 'ease-in-out duration-500 fixed left-[-100%]  opacity-0'}>
                            
                             <NavLink to={"/"} className='p-4 border-b border-gray-600 text-white' onClick={(e)=>Setmenu(false)}>Home</NavLink >
                             <NavLink to={"/blog"} className='p-4 border-b border-gray-600' onClick={(e)=>Setmenu(false)}>Blog</NavLink >
