@@ -7,10 +7,16 @@ import graphs from '../Image/offers/graphs.png'
 import connection from '../Image/offers/connection.png'
 
 
-export default function Sollutions() {
+export default function Sollutions({children}) {
   return (
  <section className='w-full py-[5rem]  font-sans '>
-     <div className='w-full bg-gradient-to-r from-cyan-100 to-white pt-5 pb-20'>        
+     <div className='w-full bg-gradient-to-r from-cyan-100 to-white pt-5 pb-20'>
+        {/* <div className='text-center max-w-[1240px] mx-auto  p-10'>
+            <h1 className='py-2 text-5xl'>Our <span className='text-green-600'>Solutions</span></h1>
+            <p className='py-2 px-5 text-gray-600 text-center leading-7'>We emphasis on offering a high degree of product user friendliness <br/>through by crafting the digital growth of all sized businesses with our solutions. <br/>We serve digital ease fresh and creative solutions.</p>
+        </div> */} 
+        {children}
+        
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 grid-rows-2 gap-8  mt-10'>
             <div className='w-full shadow-xl flex flex-col p-4  rounded-lg hover:scale-105 duration-300 bg border-dotted border-2  bg-white hover:bg-gradient-to-r from-teal-400 to-green-200 '>
                 <div className='py-3 px-3'>
