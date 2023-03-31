@@ -8,7 +8,9 @@ export default function Home() {
     <div className=''>
       <Banner/>
       <Slick/>
-      <Sollutions/>
+      <Sollutions>
+
+        </Sollutions>
 
     </div>
   )
