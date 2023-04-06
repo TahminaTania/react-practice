@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Blog() {
   return (
-    <div>Blog</div>
+    <section className='w-full bg-teal-200 h-screen text-black '>
+      <div className='pt-20'></div>
+    </section>
   )
 }
