@@ -14,9 +14,11 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Blog from "./Pages/Blog";
 import Contact from "./Pages/Contact";
-
+import Resources from "./Pages/Resources";
 
 import "./index.css";
+import Register from "./Pages/Register";
+
 
 const Layout =()=>{
   return(
@@ -46,6 +48,10 @@ const router = createBrowserRouter([
         element: <div><Contact/></div>,
       },
       {
+        path: "/resources",
+        element: <div><Resources/></div>,
+      },
+      {
         path: "/post/:id",
         element: <div><Edit/></div>,
       },
@@ -54,11 +60,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/Register",
-    element: <div>Register</div>,
+    element: <div><Register/></div>,
   },
   {
     path: "/login",
-    element: <div>Login</div>,
+    element: <div><Login/></div>,
   },
 
 ]);

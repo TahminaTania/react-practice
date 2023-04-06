@@ -25,7 +25,7 @@ function Navbar() {
                     <div className='hidden md:flex justify-between'>
                             <NavLink to={'/'} className='p-4 font-bold'>Home</NavLink>
                             <NavLink to={'/blog'} className='p-4 font-bold'>Blog</NavLink>
-                            <NavLink to={'/resouces'} className='p-4 font-bold'>Resources</NavLink>
+                            <NavLink to={'/resources'} className='p-4 font-bold'>Resources</NavLink>
                             <NavLink to={'/about'} className='p-4 font-bold'>About</NavLink>
                             <NavLink to={'/contact'} className='p-4 font-bold'>Contact</NavLink>
                     </div>
@@ -33,7 +33,7 @@ function Navbar() {
 
                 <div className='my-auto col-span-2  md:col-span-1 '>
                   
-                        <a href="#_" className="relative md:float-right sm:float-left bg-green-500 text-white rounded-md font-medium  h-full px-6 py-3 inline-flex items-center justify-center hover:font-bold duration-[2s]  overflow-hidden text-medium group">
+                        <a href="/login" className="relative md:float-right sm:float-left bg-green-500 text-white rounded-md font-medium  h-full px-6 py-3 inline-flex items-center justify-center hover:font-bold duration-[2s]  overflow-hidden text-medium group" >
                             <span className="absolute w-0  transition-all duration-700 ease-out bg-purple-500 rounded group-hover:w-full group-hover:h-full"></span>
                             <span className="relative flex whitespace-nowrap"><span><AiOutlineUser/></span>Sign In</span>
                         </a>
