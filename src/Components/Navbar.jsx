@@ -25,7 +25,7 @@ function Navbar() {
                     <div className='hidden md:flex justify-between'>
                             <NavLink to={'/'} className='p-4 font-bold'>Home</NavLink>
                             <NavLink to={'/blog'} className='p-4 font-bold'>Blog</NavLink>
-                            <NavLink to={'/resources'} className='p-4 font-bold'>Resources</NavLink>
+                            <NavLink to={'/services'} className='p-4 font-bold'>Services</NavLink>
                             <NavLink to={'/about'} className='p-4 font-bold'>About</NavLink>
                             <NavLink to={'/contact'} className='p-4 font-bold'>Contact</NavLink>
                     </div>
@@ -52,7 +52,7 @@ function Navbar() {
                            
                             <NavLink to={"/"} className='p-4 border-b border-gray-600 text-white' onClick={(e)=>Setmenu(false)}>Home</NavLink >
                             <NavLink to={"/blog"} className='p-4 border-b border-gray-600' onClick={(e)=>Setmenu(false)}>Blog</NavLink >
-                            <NavLink to={"/resources"} className='p-4 border-b border-gray-600' onClick={(e)=>Setmenu(false)}>Resources</NavLink >
+                            <NavLink to={"/services"} className='p-4 border-b border-gray-600' onClick={(e)=>Setmenu(false)}>Services</NavLink >
                             <NavLink to={"/about"} className='p-4 border-b border-gray-600' onClick={(e)=>Setmenu(false)}>About</NavLink >
                             <NavLink to={"/contact"} className='p-4' onClick={(e)=>Setmenu(false)}>Contact</NavLink >
                         </div>

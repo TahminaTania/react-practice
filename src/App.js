@@ -14,11 +14,12 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Blog from "./Pages/Blog";
 import Contact from "./Pages/Contact";
-import Resources from "./Pages/Resources";
+
 
 import "./index.css";
 import Register from "./Pages/Register";
 import About from "./Pages/About";
+import Services from "./Pages/Services";
 
 
 const Layout =()=>{
@@ -49,8 +50,8 @@ const router = createBrowserRouter([
         element: <div><Contact/></div>,
       },
       {
-        path: "/resources",
-        element: <div><Resources/></div>,
+        path: "/services",
+        element: <div><Services/></div>,
       },
       {
         path: "/about",
