@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-practice/static/css/main.089b6849.css",
+    "main.js": "/react-practice/static/js/main.729d6c75.js",
+    "static/media/export.png": "/react-practice/static/media/export.f300aed4dbb836614a3b.png",
+    "static/media/education.png": "/react-practice/static/media/education.2101e2fcb9c80c982a0d.png",
+    "static/media/ArtificialIntelligence.png": "/react-practice/static/media/ArtificialIntelligence.00d106fa34831fc0567d.png",
+    "static/media/about.jpg": "/react-practice/static/media/about.ba56a853dabba6f357e0.jpg",
+    "static/media/consult.png": "/react-practice/static/media/consult.8f6f636dfaf92475c6fa.png",
+    "static/media/jobs1.png": "/react-practice/static/media/jobs1.264e36ad5b0527335654.png",
+    "static/media/logo.png": "/react-practice/static/media/logo.eae19fd2b8c95236136a.png",
+    "static/media/banner.jpg": "/react-practice/static/media/banner.8c150e9ebfb14e4cbe22.jpg",
+    "static/media/vendor.png": "/react-practice/static/media/vendor.063832c32d49a5133a9e.png",
+    "static/media/slick.svg": "/react-practice/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/react-practice/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react-practice/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/react-practice/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/react-practice/index.html",
+    "main.089b6849.css.map": "/react-practice/static/css/main.089b6849.css.map",
+    "main.729d6c75.js.map": "/react-practice/static/js/main.729d6c75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.089b6849.css",
+    "static/js/main.729d6c75.js"
+  ]
+}
