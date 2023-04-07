@@ -18,6 +18,7 @@ import Resources from "./Pages/Resources";
 
 import "./index.css";
 import Register from "./Pages/Register";
+import About from "./Pages/About";
 
 
 const Layout =()=>{
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
       {
         path: "/resources",
         element: <div><Resources/></div>,
+      },
+      {
+        path: "/about",
+        element: <div><About/></div>,
       },
       {
         path: "/post/:id",
