@@ -9,7 +9,6 @@ import {
 import Home from "./Pages/Home";
 import Login from "./Pages/Login";
 import Individual from "./Pages/Individual";
-import Edit from "./Pages/Edit";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Blog from "./Pages/Blog";
@@ -20,6 +19,8 @@ import "./index.css";
 import Register from "./Pages/Register";
 import About from "./Pages/About";
 import Services from "./Pages/Services";
+import { useSelector } from "react-redux";
+import AddedItems from "./Pages/AddedItems";
 
 
 const Layout =()=>{
@@ -59,7 +60,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/post/:id",
-        element: <div><Edit/></div>,
+        element: <div>Individual</div>,
       },
     ]
 
@@ -72,10 +73,17 @@ const router = createBrowserRouter([
     path: "/login",
     element: <div><Login/></div>,
   },
+  {
+    path: "/cart",
+    element: <div><AddedItems/></div>,
+  },
 
 ]);
 
 function App() {
+  const cartItems=useSelector((state)=> state.cart.itemsList)
+  console.log(cartItems);
+
   return (
     <div>
         <RouterProvider router={router} />
