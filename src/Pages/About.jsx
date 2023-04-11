@@ -11,7 +11,7 @@ export default function About() {
               <div className='mt-3 border-b-[7px] border-solid border-green-400 rounded-lg w-[100px]'></div>
            </div>
         </div>
-        <div className='grid grid-cols-2 bg-gray-200 my-20 mx-10  '>
+        <div className='grid md:grid-cols-2 sm:grid-cols-1 xsm:p-2 bg-gray-200 my-20 mx-10  '>
             <div className='col-span-1 m-[10px]'>
                 <img src={about} alt='group cover' className='w-[700px] h-[700px]'/>
             </div>

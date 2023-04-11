@@ -40,7 +40,7 @@ export default function Blog() {
 
   return (
     <section className='w-full bg-white h-full text-black '>
-      <div className=' grid grid-cols-5'>
+      <div className=' grid md:grid-cols-5 xsm:grid-cols-2'>
         <div className='pt-20 col-span-4'>
             <div className='uppercase font-bold p-2 md:text-3xl sm:text-xxl text-center bg-teal-500'>blogs:</div> 
           {state.map(blog=>{
@@ -61,8 +61,8 @@ export default function Blog() {
         </div>
 
 
-        <div className='col-span-1  bg-gray-200'>
-          <form onSubmit={addBlog} className='my-[50%] p-3'>
+        <div className='md:col-span-1 xsm:col-span-3 bg-gray-200'>
+          <form onSubmit={addBlog} className='md:my-[50%] p-3 xsm:my-[10%]'>
             <h1 className='font-bold p-2 md:text-xxl sm:text-xl'>Add new Blog..</h1>
             <div className='p-3'>
                <input className='peer block min-h-[auto] w-full rounded border-2  border-slate-500 bg-white px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0' 

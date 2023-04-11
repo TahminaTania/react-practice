@@ -8,7 +8,7 @@ import logo from '../Image/logo.png'
 function Footer() {
     return (
         <div className="bg-gradient-to-r from-teal-500 to-green-300 py-[5rem]">
-            <div className='max-w-[1540px] mx-auto py-3 px-4 grid lg:grid-cols-3 sm:grid-cols-3 gap-8 text-gray-600'>
+            <div className='mx-auto py-3 px-4 grid md:grid-cols-3 sm:grid-cols-2 gap-8 text-gray-600'>
                 <div>
                     <img src={logo} className="h-15 w-20"/>
                     <p className='py-4'>Cloud production Ltd is dedicated to provide you the very best of services and creative solutions.</p>

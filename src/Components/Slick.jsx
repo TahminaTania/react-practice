@@ -37,9 +37,9 @@ export default function Slick({Data}) {
                         <div className="flex align-middle justify-center py-10 bg-gradient-to-l from-cyan-100 to-white ">
                             <div className="grid grid-cols-2 ">
                                 <div className="p-2 items-center mt-[12%] ">
-                                    <h2 className="text-4xl bold md:text-5xl  py-5">{title}</h2>
-                                    <p className="py-3 text-gray-700 font-serif ... text-sm  md:text-[18px] sm:leading-6 lg:leading-8">{paragraph}</p>
-                                    <button className="bg-green-500 text-white rounded font-semibold  my-6 mx-auto px-6 py-3">We like to hear from you</button>
+                                    <h2 className="text-4xl bold md:text-5xl sm:text-3xl xsm:text-lg xsm:py-2 py-5">{title}</h2>
+                                    <p className="py-3 text-gray-700 font-serif ... text-sm  md:text-[18px] xsm:text-[12px] sm:leading-6 lg:leading-8">{paragraph}</p>
+                                    <button className="bg-green-500 text-white rounded font-semibold  my-6 md:text-[13px] mx-auto md:px-6 md:py-3 xsm:px-1 xsm:py-2 xsm:text-[10px]">We like to hear from you</button>
                                 </div>
                                 <div className="mx-auto my-auto object-cove lg:h-48 lg:w-96 md:h-45 md:h-96 sm:h-55 sm:w-30..."><img src={pic}/></div>
                             </div>

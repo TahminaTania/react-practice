@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux'
 import CartItem from '../Components/CartItem'
 import {AiOutlinePlus,AiOutlineMinus} from 'react-icons/ai'
 import { cartActions } from '../reduxStore/CartActions'
+import { NavLink } from 'react-router-dom'
 
 export default function AddedItems() {
   const cartItems =useSelector(state=> state.cart.itemsList)
@@ -38,9 +39,14 @@ export default function AddedItems() {
         })}
       </div>
 
-      <div>
-        <div className='float-right  text-2xl font-bold'>Total: ${total}</div>
+      <div className='float-right '>
+        <div className=' text-2xl font-bold'>Total: ${total}</div>
+        <div className='py-10'>
+               <NavLink to={'/login'}><button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-6 w-full rounded-full'>Check Out</button></NavLink> 
+        </div>
       </div>
+
+
       </div>
     ):(
       <div className='align-content'>

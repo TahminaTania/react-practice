@@ -11,7 +11,20 @@
     font-size: 15px;
     line-height: 10rem;   
 }
-
+@media only screen and (min-width: 370px) {
+  .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 12px;
+    line-height: 2rem;  
+  }
+}
+@media only screen and (max-width: 500px) {
+  .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 12px;
+    line-height: 2rem;  
+  }
+}
 
 
 
