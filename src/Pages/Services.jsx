@@ -18,7 +18,7 @@ export default function Services() {
   return (
     <section className='pt-20'>
       <div className=' h-full w-full bg-teal-100 pb-20'>
-        <div className='py-10 ml-[93%] flex flex-row' onClick={(e)=>setIscart(!Iscart)}><NavLink to={"/cart"}><AiOutlineShoppingCart size={30}/></NavLink><span className='bg-red-600 h-5 w-5 rounded-full flex justify-center font-bold text-sm'>{quantity}</span></div>
+        <div className='py-10 flex flex-row-reverse mr-5' onClick={(e)=>setIscart(!Iscart)}><NavLink to={"/cart"}><AiOutlineShoppingCart size={30}/></NavLink><span className='bg-red-600 h-5 w-5 rounded-full flex justify-center font-bold text-sm'>{quantity}</span></div>
 
             {/* {Iscart ? ( */}
             <div className='bg-white my-10 grid gap-8 lg:mx-[10%] lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center'>

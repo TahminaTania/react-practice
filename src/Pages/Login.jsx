@@ -14,12 +14,20 @@ export default function Login() {
 
         <div className="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
             <span className='text-gray-200'><FaUserAlt/></span>
-            <input className="pl-2 outline-none border-none" type="text" name="" id="" placeholder="Username" />
+            <input className="pl-2 outline-none border-none" 
+            type="text" 
+            name="" 
+            id="" 
+            placeholder="Username" />
         </div>
 
         <div className="flex items-center border-2 py-2 px-3 rounded-2xl">
             <span className='text-gray-200'><FaUserAlt/></span>
-            <input className="pl-2 outline-none border-none" type="text" name="" id="" placeholder="Password" />
+            <input className="pl-2 outline-none border-none" 
+            type="text" 
+            name="" 
+            id="" 
+            placeholder="Password" />
         </div>
 
         <button type="submit" className="block w-full bg-indigo-600 mt-4 py-2 rounded-2xl text-white font-semibold mb-2">Log In</button>
